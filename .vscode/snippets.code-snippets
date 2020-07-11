@@ -1,0 +1,22 @@
+{
+	"Arrow Function": {
+		"prefix": "af",
+		"body": ["let $1 = () => {", "$2", "}"],
+		"description": "Arrow Function"
+	},
+	"Console Log": {
+		"prefix": "cl",
+		"body": ["console.log($1)"],
+		"description": "Console Log"
+	},
+	"HTML Input Element": {
+		"prefix": "hie",
+		"body": ["<HTMLInputElement>"],
+		"description": "HTML Input Element"
+	},
+	"Random Number": {
+		"prefix": "rn",
+		"body": ["Math.floor(Math.random() * 10) + 1"],
+		"description": "Math.random()"
+	}
+}

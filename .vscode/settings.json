@@ -1,0 +1,52 @@
+{
+    "python.jediEnabled": false,
+    "editor.autoClosingBrackets": "always",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "git.ignoreMissingGitWarning": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "code-runner.runInTerminal": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "none",
+    "prettier.semi": false,
+    "prettier.useTabs": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    
+    "better-comments.tags": [
+        {
+          "tag": "!",
+          "color": "red",
+          "strikethrough": false,
+          "backgroundColor": "transparent"
+        },
+        {
+          "tag": "?",
+          "color": "orange",
+          "strikethrough": false,
+          "backgroundColor": "transparent"
+        },
+        {
+          "tag": "//",
+          "color": "green",
+          "strikethrough": true,
+          "backgroundColor": "transparent"
+        },
+      ],
+      "workbench.colorTheme": "Dark Github",
+      "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "prettier.printWidth": 130,
+      "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "explorer.confirmDragAndDrop": false,
+      "editor.formatOnSave": true,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.renameOnType": true
+}
+
+
