@@ -1,8 +1,16 @@
 # Levminer
 
-### Hi! Welcome to my profile!
+### Hi! Welcome to my profile! I'm currently a student studying programming.
 
-# Main Projects
+# Programing languages and technologies
+
+### 😀 HTML, CSS, JavaScript, Node.js, Electron, MongoDB
+
+### 😐 TypeScript
+
+### 😣 PHP, MySQL
+
+# Main projects
 
 ### [Netflix Statistics](https://www.github.com/Levminer/netflix-statistics)
 
@@ -10,6 +18,6 @@
 
 # VS Code settings and snippets
 
-### [Settings](https://www.github.com/Levminer/Levminer/.vscode/settings.json)
+### [Settings](https://github.com/Levminer/Levminer/blob/master/.vscode/settings.json)
 
-### [Snippets](https://www.github.com/Levminer/Levminer/.vscode/snippets.code-snippets+)
+### [Snippets](https://github.com/Levminer/Levminer/blob/master/.vscode/snippets.code-snippets)
