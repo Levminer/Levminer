@@ -14,39 +14,37 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    
+
     "better-comments.tags": [
         {
-          "tag": "!",
-          "color": "red",
-          "strikethrough": false,
-          "backgroundColor": "transparent"
+            "tag": "!",
+            "color": "red",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
         },
         {
-          "tag": "?",
-          "color": "orange",
-          "strikethrough": false,
-          "backgroundColor": "transparent"
+            "tag": "?",
+            "color": "orange",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
         },
         {
-          "tag": "//",
-          "color": "green",
-          "strikethrough": true,
-          "backgroundColor": "transparent"
-        },
-      ],
-      "workbench.colorTheme": "Dark Github",
-      "[html]": {
+            "tag": "//",
+            "color": "green",
+            "strikethrough": true,
+            "backgroundColor": "transparent"
+        }
+    ],
+    "workbench.colorTheme": "Dark Github",
+    "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "prettier.printWidth": 130,
-      "[typescript]": {
+    },
+    "prettier.printWidth": 130,
+    "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "explorer.confirmDragAndDrop": false,
-      "editor.formatOnSave": true,
-      "editor.suggest.snippetsPreventQuickSuggestions": false,
-      "editor.renameOnType": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnSave": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.renameOnType": true
 }
-
-
