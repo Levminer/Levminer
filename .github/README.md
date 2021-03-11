@@ -4,20 +4,17 @@
 
 ## Programing languages and technologies
 
-#### 😀 HTML, CSS, JavaScript, Batch, Node.js, Electron, MongoDB
+#### 😀 HTML, CSS, JavaScript, Batch, Node.js, Electron, MongoDB, React, Next.js
 
-#### 😐 TypeScript
+#### 😐 TypeScript, Vue
 
 #### 😣 PHP, MySQL
 
-## Main projects
+## Statistics
 
-#### [Netflix Statistics](https://www.github.com/Levminer/netflix-statistics)
-
-#### [Tesla Calculator](https://www.github.com/Levminer/tesla-calculator)
-
-## VS Code settings and snippets
-
-#### [Settings](https://github.com/Levminer/Levminer/blob/master/.vscode/settings.json)
-
-#### [Snippets](https://github.com/Levminer/Levminer/blob/master/.vscode/snippets.code-snippets)
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Levminer&theme=dark" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Levminer&langs_count=8&theme=dark&&layout=compact" />
+</a>

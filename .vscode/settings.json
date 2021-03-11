@@ -1,50 +1,94 @@
 {
-    "python.jediEnabled": false,
-    "editor.autoClosingBrackets": "always",
-    "files.autoSave": "afterDelay",
-    "explorer.confirmDelete": false,
-    "git.ignoreMissingGitWarning": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "code-runner.runInTerminal": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.folders.theme": "none",
-    "prettier.semi": false,
-    "prettier.useTabs": true,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+	"editor.autoClosingBrackets": "always",
+	"files.autoSave": "afterDelay",
+	"explorer.confirmDelete": false,
+	"git.ignoreMissingGitWarning": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"code-runner.runInTerminal": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"material-icon-theme.folders.theme": "none",
+	"prettier.useTabs": true,
+	"html.validate.scripts": false,
+	"typescript.validate.enable": false,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 
-    "better-comments.tags": [
-        {
-            "tag": "!",
-            "color": "red",
-            "strikethrough": false,
-            "backgroundColor": "transparent"
-        },
-        {
-            "tag": "?",
-            "color": "orange",
-            "strikethrough": false,
-            "backgroundColor": "transparent"
-        },
-        {
-            "tag": "//",
-            "color": "green",
-            "strikethrough": true,
-            "backgroundColor": "transparent"
-        }
-    ],
-    "workbench.colorTheme": "Dark Github",
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "prettier.printWidth": 130,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "explorer.confirmDragAndDrop": false,
-    "editor.formatOnSave": true,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.renameOnType": true
+	"better-comments.tags": [
+		{
+			"tag": "!",
+			"color": "red",
+			"strikethrough": false,
+			"backgroundColor": "transparent"
+		},
+		{
+			"tag": "?",
+			"color": "orange",
+			"strikethrough": false,
+			"backgroundColor": "transparent"
+		},
+		{
+			"tag": "//",
+			"color": "green",
+			"strikethrough": true,
+			"backgroundColor": "transparent"
+		}
+	],
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.printWidth": 150,
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"explorer.confirmDragAndDrop": false,
+	"editor.formatOnSave": true,
+	"editor.suggest.snippetsPreventQuickSuggestions": false,
+	"editor.renameOnType": true,
+	"omnisharp.useEditorFormattingSettings": false,
+	"python.languageServer": "Microsoft",
+	"update.showReleaseNotes": false,
+	"settingsSync.keybindingsPerPlatform": false,
+	"workbench.activityBar.visible": true,
+	"prettier.endOfLine": "crlf",
+	"prettier.tabWidth": 4,
+	"eslint.format.enable": true,
+	"editor.suggestSelection": "first",
+	"material-icon-theme.files.associations": {
+		".webpackrc.js": "webpack",
+		"router.js": "javascript"
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": false
+	},
+	"eslint.validate": ["javascript"],
+	"files.associations": {
+		"*.ejs": "html"
+	},
+	"prettier.semi": false,
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"window.menuBarVisibility": "default",
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.editorAssociations": [],
+	"workbench.colorTheme": "#000000",
+	"workbench.startupEditor": "newUntitledFile",
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"csharp.format.enable": false,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "compressed"
+		}
+	],
+	"liveSassCompile.settings.generateMap": false,
+	"editor.multiCursorModifier": "alt",
+	"javascript.updateImportsOnFileMove.enabled": "always"
 }
