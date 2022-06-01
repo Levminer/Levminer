@@ -7,9 +7,6 @@
     { "name": "Type: Docs", "color": "#0004ff" },
     { "name": "Type: Improvement", "color": "#ffee00" },
     { "name": "Type: Invalid", "color": "#ff00ff" },
-    { "name": "Status: Abandoned", "color": "#6e2121" },
-    { "name": "Status: In Progress", "color": "#234a28" },
-    { "name": "Status: On Hold", "color": "#c2c219" },
-    { "name": "Status: To Do", "color": "#541515" },
-    { "name": "Status: Done", "color": "#267828" }
+    { "name": "Type: Breaking", "color": "#1D76DB" },
+    { "name": "Type: Security", "color": "#D93F0B" }
 ]

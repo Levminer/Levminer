@@ -9,7 +9,7 @@
 	"material-icon-theme.folders.theme": "none",
 	"prettier.useTabs": true,
 	"html.validate.scripts": false,
-	"typescript.validate.enable": false,
+	/* 	"typescript.validate.enable": false, */
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
@@ -37,14 +37,18 @@
 	"[html]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"prettier.printWidth": 150,
+	"prettier.printWidth": 500,
 	"[typescript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	/* "js/ts.implicitProjectConfig.checkJs": true, */
+	"editor.snippetSuggestions": "inline",
+	"editor.suggestSelection": "first",
 	"explorer.confirmDragAndDrop": false,
 	"editor.formatOnSave": true,
 	"editor.suggest.snippetsPreventQuickSuggestions": false,
-	"editor.renameOnType": true,
+	"editor.wordBasedSuggestionsMode": "allDocuments",
+	"editor.linkedEditing": true,
 	"omnisharp.useEditorFormattingSettings": false,
 	"python.languageServer": "Microsoft",
 	"update.showReleaseNotes": false,
@@ -53,31 +57,32 @@
 	"prettier.endOfLine": "crlf",
 	"prettier.tabWidth": 4,
 	"eslint.format.enable": true,
-	"editor.suggestSelection": "first",
 	"material-icon-theme.files.associations": {
 		".webpackrc.js": "webpack",
-		"router.js": "javascript"
+		"router.js": "javascript",
+		".tailwindrc.js": "tailwindcss",
+		".snowpackrc.js": "snowpack"
 	},
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": false
 	},
 	"eslint.validate": ["javascript"],
 	"files.associations": {
-		"*.ejs": "html"
+		"*.ejs": "html",
+		"*.authme": "json",
+		"*.authmeimport": "json",
+		"*.authmebackup": "json"
 	},
 	"prettier.semi": false,
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"window.menuBarVisibility": "default",
 	"[json]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[vue]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"workbench.editorAssociations": [],
-	"workbench.colorTheme": "#000000",
 	"workbench.startupEditor": "newUntitledFile",
 	"[javascriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -90,5 +95,51 @@
 	],
 	"liveSassCompile.settings.generateMap": false,
 	"editor.multiCursorModifier": "alt",
-	"javascript.updateImportsOnFileMove.enabled": "always"
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"tabnine.experimentalAutoImports": true,
+	"files.autoSaveDelay": 100,
+	"css.customData": ["./css_custom_data.json"],
+	"css.lint.unknownAtRules": "ignore",
+	"scss.lint.unknownAtRules": "ignore",
+	"redhat.telemetry.enabled": false,
+	"editor.inlineSuggest.enabled": true,
+	"gitlens.advanced.messages": {
+		"suppressGitMissingWarning": true
+	},
+	"liveServer.settings.donotVerifyTags": true,
+	"editor.bracketPairColorization.enabled": true,
+	"bracketLens.mode": "auto",
+	"cSpell.userWords": ["APPDATA", "Authme", "buttonmselected", "buttonr", "ipcs", "Levente", "levminer", "Lőrik", "noopener", "noreferrer", "nsis", "otpauth", "qrcode", "qrcodedecoder", "readed", "submenu", "sveltejs", "tabcontent", "tabindex", "tablinks", "tauri", "titlebar", "totp", "unhash"],
+	"workbench.editor.untitled.hint": "hidden",
+	"editor.guides.bracketPairs": true,
+	"svelte.ask-to-enable-ts-plugin": false,
+	"editor.fontFamily": "Cascadia Light, Consolas, 'Courier New', monospace",
+	"editor.fontSize": 15,
+	"terminal.integrated.fontSize": 15,
+	"workbench.colorTheme": "#000000",
+	"gitlens.codeLens.enabled": false,
+	"gitlens.plusFeatures.enabled": false,
+	"stretchReminder.intervalBetweenStretch": 20,
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"turboConsoleLog.includeFileNameAndLineNum": false,
+	"github.copilot.enable": {
+		"*": true,
+		"yaml": false,
+		"plaintext": false,
+		"markdown": false,
+		"javascript": true
+	},
+	"gitlens.hovers.currentLine.over": "line",
+	"explorer.fileNesting.enabled": true,
+	"gitlens.hovers.avatars": false,
+	"gitlens.hovers.pullRequests.enabled": false,
+	"gitlens.hovers.currentLine.details": false,
+	"gitlens.hovers.annotations.details": false,
+	"gitlens.hovers.enabled": false,
+	"explorer.fileNesting.expand": false
 }
